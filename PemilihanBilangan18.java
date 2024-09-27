@@ -11,13 +11,11 @@ public class PemilihanBilangan18{
         angka = input.nextInt();
         hasil = angka   % 2;
          
-        if (angka % 2 == 0) {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
-            
-        } else {
-            System.out.println("Angka " + angka + " bilangan ganjil");
+        
+        String hasilnya = hasil == 0 ? "genap" : "ganjil";
 
-        }
+        System.out.println("Angka " + angka + " adalah bilangan " + hasilnya);
+        
 
 
 
