@@ -5,10 +5,10 @@ public class PemilihanBilangan18{
         Scanner sc = new Scanner(System.in);
         int angka,hasil;
       
-        Scanner input = new Scanner(System.in);     
+          
 
         System.out.print("Masukkan sebuah angka: ");
-        angka = input.nextInt();
+        angka = sc.nextInt();
         hasil = angka   % 2;
          
         
